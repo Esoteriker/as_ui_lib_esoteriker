@@ -1,6 +1,6 @@
 // Spinner.js
 import React from 'react';
-import './Spinner.css';
+import './spinner.css';
 
 const Spinner = ({ size = 50, color = '#000' }) => (
   <div 

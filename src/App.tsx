@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Spinner from './components/Spinner/spinner.tsx'
+import CircleProgress from './components/progress/circleprogress/CircleProgress.tsx'
+import Button from './components/button/Button.tsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <Spinner></Spinner>
+        <CircleProgress size={30} color="blue" color2="red"></CircleProgress>
+        <Button buttonLabel='Click me'></Button>
 
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR

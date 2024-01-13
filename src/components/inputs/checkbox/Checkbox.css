@@ -1,0 +1,53 @@
+.checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox--small .checkbox-custom {
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox--medium .checkbox-custom {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox--large .checkbox-custom {
+    width: 25px;
+    height: 25px;
+}
+
+.checkbox--round .checkbox-custom {
+    border-radius: 50%;
+}
+
+.checkbox-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+.checkbox input:checked ~ .checkbox-custom {
+    background-color: #2196F3;
+}
+
+.checkbox input:disabled ~ .checkbox-custom {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

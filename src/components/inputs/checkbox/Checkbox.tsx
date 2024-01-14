@@ -5,12 +5,14 @@ interface CheckboxProps {
   /**
    * Size of the checkbox.
    * 'small', 'medium', or 'large' are the allowed values.
+   * @default 'medium'
    */
   size?: 'small' | 'medium' | 'large';
 
   /**
    * Shape of the checkbox.
    * It can be either 'round' or 'square'.
+   * @default 'square'
    */
   shape?: 'round' | 'square';
 

@@ -24,11 +24,11 @@ const Chip = ({ label, avatar, onDelete }: ChipProps) => {
     <div className="chip">
       {avatar && <img src={avatar} alt="Avatar" className="chip-avatar" />}
       <span className="chip-label">{label}</span>
-      {onDelete && (
+      {onDelete !== undefined ? (
         <button className="chip-delete" onClick={onDelete}>
           x
         </button>
-      )}
+      ): null}
     </div>
   );
 };

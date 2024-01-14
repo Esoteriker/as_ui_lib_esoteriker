@@ -1,7 +1,6 @@
 {
-  "name": "as_ui_lib_esoteriker",
-  "private": true,
-  "version": "0.0.0",
+  "name": "app_ui_lib_esoteriker",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

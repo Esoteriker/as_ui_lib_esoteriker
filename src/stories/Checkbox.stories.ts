@@ -10,14 +10,6 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    size: {
-      control: 'select',
-      options: ['small', 'medium', 'large'],
-    },
-    shape: {
-      control: 'select',
-      options: ['round', 'square'],
-    },
     required: {
       control: 'boolean',
     },

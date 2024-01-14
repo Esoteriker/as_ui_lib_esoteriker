@@ -15,8 +15,8 @@
 }
 
 .checkbox--small .checkbox-custom {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 
 .checkbox--medium .checkbox-custom {
@@ -25,8 +25,8 @@
 }
 
 .checkbox--large .checkbox-custom {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 }
 
 .checkbox--round .checkbox-custom {
@@ -41,6 +41,7 @@
     width: 20px;
     background-color: #eee;
     border: 1px solid #ddd;
+    border-radius: 15%;
 }
 
 .checkbox input:checked ~ .checkbox-custom {

@@ -1,0 +1,28 @@
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+  }
+  
+  .chip-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .chip-label {
+    margin-right: 10px;
+  }
+  
+  .chip-delete {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
+  

@@ -29,7 +29,7 @@ dist-ssr
 
 
 #test
-.src/App.css
-.src/App.tsx
-.src/index.css
-.src/main.tsx
+src/App.css
+src/App.tsx
+src/index.css
+src/main.tsx

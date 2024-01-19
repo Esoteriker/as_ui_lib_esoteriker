@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+  width: 100%;
+}
+
+.slider-range {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.slider-marks {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.mark {
+  position: absolute;
+  height: 6px; /* 减小刻度点的尺寸 */
+  width: 6px; /* 减小刻度点的尺寸 */
+  border-radius: 50%;
+  background-color: white; /* 改变刻度点颜色为白色 */
+  transform: translate(-50%, -50%);
+}
+
+/* 大小样式 */
+.slider.small .slider-range {
+  height: 4px;
+}
+
+.slider.medium .slider-range {
+  height: 8px;
+}
+
+.slider.large .slider-range {
+  height: 12px;
+}

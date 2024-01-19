@@ -3,6 +3,7 @@ import './Chip.css';
 interface ChipProps {
     /**
      * Label text
+     * @default 'label'
      */
     label: string;
     /**

@@ -19,7 +19,7 @@ interface ChipProps {
     onDelete?: () => void;
 }
 
-// Chip 组件定义
+// Chip component definition
 const Chip = ({ label, avatar, onDelete }: ChipProps) => {
   return (
     <div className="chip">

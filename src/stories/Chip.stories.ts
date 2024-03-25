@@ -3,7 +3,7 @@ import Chip from '../components/data-display/chip/Chip';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Example/Data Display/Chip',
+  title: 'Components/Data Display/Chip',
   component: Chip,
   parameters: {
     layout: 'centered',

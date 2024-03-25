@@ -3,7 +3,7 @@ import Checkbox from '../components/inputs/checkbox/Checkbox';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
-  title: 'Example/Inputs/Checkbox',
+  title: 'Components/Inputs/Checkbox',
   component: Checkbox,
   parameters: {
     layout: 'centered',
